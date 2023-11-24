@@ -5,12 +5,15 @@
     "react-router-dom": "^6.20.0",
     "react-scripts": "^5.0.0"
   },
+  "homepage": "https://luisaruiz0.github.io/A6-React/",
   "main": "/index.js",
   "name": "vy6j3f",
   "description": null,
   "version": "0.0.0",
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
@@ -26,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
