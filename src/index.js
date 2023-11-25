@@ -9,6 +9,7 @@ import Character from "./Characters";
 const root = createRoot(document.getElementById("root"));
 root.render(
   <Router>
+    
     <div>
       <Routes>
         <Route exact path="/" element={<App />} />
