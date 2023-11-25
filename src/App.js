@@ -31,6 +31,13 @@ function Board({xIsNext, squares, onPlay}) {
     }
   return(
     <>
+     <Link to="/api">
+        <button>Characters API</button>
+    </Link>
+    <Link to="/">
+        <button>TicTacToe</button>
+    </Link>
+
     <div className="status">{status}</div>
     <div className="board-row">
       <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
@@ -47,9 +54,11 @@ function Board({xIsNext, squares, onPlay}) {
       <Square value={squares[7]} onSquareClick={() => handleClick(7)}/>
       <Square value={squares[8]} onSquareClick={() => handleClick(8)}/>
     </div>
-    <Link to="/api">
-        <button>Go to API Page</button>
-    </Link>
+    
+    <div>
+      
+    </div>
+   
     </>
   );
 }

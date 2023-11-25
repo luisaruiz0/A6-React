@@ -12,11 +12,6 @@ root.render(
     <div className="container">
       <header>
         <h1>Homework 6</h1>
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-          </ul>
-        </nav>
       </header>
       <main>
         <Routes>

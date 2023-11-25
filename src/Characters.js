@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Character = () => {
   const [items, setItems] = React.useState([]);
@@ -27,6 +28,15 @@ const Character = () => {
   }
 
   return (
+    <>
+    <Link to="/">
+        <button>TicTacToe</button>
+    </Link>
+    <Link to="/api">
+        <button>Characters API</button>
+    </Link>
+
+    
     <div className="App">
       <h1>RANDOM Rick and Morty Character</h1>
       {items.map((item) => (
@@ -39,6 +49,7 @@ const Character = () => {
       ))}
       
     </div>
+    </>
     
   );
 };
