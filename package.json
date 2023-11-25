@@ -5,9 +5,9 @@
     "react-router-dom": "^6.20.0",
     "react-scripts": "^5.0.0"
   },
-  "homepage": "https://github.com/luisaruiz0/A6-React",
+  "homepage": "https://luisaruiz0.github.io/A6-React",
   "main": "/index.js",
-  "name": "vy6j3f",
+  "name": "A6-React",
   "description": null,
   "version": "0.0.0",
   "scripts": {
